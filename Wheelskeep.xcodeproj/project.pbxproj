@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5761ACB1F62B0D300F24C85 /* PhoneNumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5761ACA1F62B0D300F24C85 /* PhoneNumberViewController.xib */; };
+		F5761AD01F62B50200F24C85 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5761ACF1F62B50200F24C85 /* UIColor+Utilities.swift */; };
+		F5761AD21F62B8A700F24C85 /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5761AD11F62B8A700F24C85 /* OTPViewController.xib */; };
+		F5761AD41F62C31900F24C85 /* UserDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5761AD31F62C31900F24C85 /* UserDetailsViewController.xib */; };
+		FD9A600E1F3B3BF8004C60F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A600D1F3B3BF8004C60F6 /* AppDelegate.swift */; };
+		FD9A60131F3B3BF8004C60F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9A60111F3B3BF8004C60F6 /* Main.storyboard */; };
+		FD9A60151F3B3BF8004C60F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9A60141F3B3BF8004C60F6 /* Assets.xcassets */; };
+		FD9A60181F3B3BF8004C60F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9A60161F3B3BF8004C60F6 /* LaunchScreen.storyboard */; };
+		FDFA6F501F626DBC007DDB50 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F4B1F626DBC007DDB50 /* Register.swift */; };
+		FDFA6F591F626FDC007DDB50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F511F626FDC007DDB50 /* LoginViewController.swift */; };
+		FDFA6F5A1F626FDC007DDB50 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F521F626FDC007DDB50 /* OTPViewController.swift */; };
+		FDFA6F5B1F626FDC007DDB50 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F531F626FDC007DDB50 /* NavigationController.swift */; };
+		FDFA6F5C1F626FDC007DDB50 /* RegistrationTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F541F626FDC007DDB50 /* RegistrationTutorialViewController.swift */; };
+		FDFA6F5D1F626FDC007DDB50 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F551F626FDC007DDB50 /* SplashViewController.swift */; };
+		FDFA6F5E1F626FDC007DDB50 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F561F626FDC007DDB50 /* PhoneNumberViewController.swift */; };
+		FDFA6F5F1F626FDC007DDB50 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F571F626FDC007DDB50 /* UserDetailsViewController.swift */; };
+		FDFA6F601F626FDC007DDB50 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F581F626FDC007DDB50 /* EmailViewController.swift */; };
+		FDFA6F631F626FE6007DDB50 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F611F626FE6007DDB50 /* TextField.swift */; };
+		FDFA6F641F626FE6007DDB50 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F621F626FE6007DDB50 /* Button.swift */; };
+		FDFA6F661F627147007DDB50 /* RegistrationTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDFA6F651F627147007DDB50 /* RegistrationTutorialViewController.xib */; };
+		FDFA6F691F629EF9007DDB50 /* TutorialHintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F671F629EF9007DDB50 /* TutorialHintCell.swift */; };
+		FDFA6F6A1F629EF9007DDB50 /* TutorialHintCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDFA6F681F629EF9007DDB50 /* TutorialHintCell.xib */; };
+		FDFA6F6C1F62AACF007DDB50 /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDFA6F6B1F62AACF007DDB50 /* EmailViewController.xib */; };
+		FDFA6F6E1F62AC04007DDB50 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F6D1F62AC04007DDB50 /* Utility.swift */; };
+		FDFA6F701F62AF27007DDB50 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA6F6F1F62AF27007DDB50 /* Label.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5761ACA1F62B0D300F24C85 /* PhoneNumberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneNumberViewController.xib; sourceTree = "<group>"; };
+		F5761ACF1F62B50200F24C85 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		F5761AD11F62B8A700F24C85 /* OTPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
+		F5761AD31F62C31900F24C85 /* UserDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
+		FD9A600A1F3B3BF8004C60F6 /* Wheelskeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheelskeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9A600D1F3B3BF8004C60F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD9A60121F3B3BF8004C60F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD9A60141F3B3BF8004C60F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD9A60171F3B3BF8004C60F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD9A60191F3B3BF8004C60F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFA6F4B1F626DBC007DDB50 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		FDFA6F511F626FDC007DDB50 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FDFA6F521F626FDC007DDB50 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		FDFA6F531F626FDC007DDB50 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		FDFA6F541F626FDC007DDB50 /* RegistrationTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationTutorialViewController.swift; sourceTree = "<group>"; };
+		FDFA6F551F626FDC007DDB50 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		FDFA6F561F626FDC007DDB50 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		FDFA6F571F626FDC007DDB50 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		FDFA6F581F626FDC007DDB50 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		FDFA6F611F626FE6007DDB50 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		FDFA6F621F626FE6007DDB50 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		FDFA6F651F627147007DDB50 /* RegistrationTutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationTutorialViewController.xib; sourceTree = "<group>"; };
+		FDFA6F671F629EF9007DDB50 /* TutorialHintCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialHintCell.swift; sourceTree = "<group>"; };
+		FDFA6F681F629EF9007DDB50 /* TutorialHintCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialHintCell.xib; sourceTree = "<group>"; };
+		FDFA6F6B1F62AACF007DDB50 /* EmailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
+		FDFA6F6D1F62AC04007DDB50 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = ../../Utility.swift; sourceTree = "<group>"; };
+		FDFA6F6F1F62AF27007DDB50 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9A60071F3B3BF8004C60F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5761ACE1F62B4D800F24C85 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5761ACF1F62B50200F24C85 /* UIColor+Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FD9A60011F3B3BF8004C60F6 = {
+			isa = PBXGroup;
+			children = (
+				FD9A600C1F3B3BF8004C60F6 /* Wheelskeep */,
+				FD9A600B1F3B3BF8004C60F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9A600B1F3B3BF8004C60F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A600A1F3B3BF8004C60F6 /* Wheelskeep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9A600C1F3B3BF8004C60F6 /* Wheelskeep */ = {
+			isa = PBXGroup;
+			children = (
+				F5761ACE1F62B4D800F24C85 /* Utilities */,
+				FDFA6F4A1F626DBC007DDB50 /* Entity */,
+				FDFA6F4C1F626DBC007DDB50 /* UserInterface */,
+				FD9A600D1F3B3BF8004C60F6 /* AppDelegate.swift */,
+				FD9A60111F3B3BF8004C60F6 /* Main.storyboard */,
+				FD9A60141F3B3BF8004C60F6 /* Assets.xcassets */,
+				FD9A60161F3B3BF8004C60F6 /* LaunchScreen.storyboard */,
+				FD9A60191F3B3BF8004C60F6 /* Info.plist */,
+			);
+			path = Wheelskeep;
+			sourceTree = "<group>";
+		};
+		FDFA6F4A1F626DBC007DDB50 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA6F4B1F626DBC007DDB50 /* Register.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FDFA6F4C1F626DBC007DDB50 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA6F4D1F626DBC007DDB50 /* Cells */,
+				FDFA6F4E1F626DBC007DDB50 /* Controller */,
+				FDFA6F4F1F626DBC007DDB50 /* CustomViews */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		FDFA6F4D1F626DBC007DDB50 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA6F671F629EF9007DDB50 /* TutorialHintCell.swift */,
+				FDFA6F681F629EF9007DDB50 /* TutorialHintCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FDFA6F4E1F626DBC007DDB50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA6F511F626FDC007DDB50 /* LoginViewController.swift */,
+				FDFA6F521F626FDC007DDB50 /* OTPViewController.swift */,
+				F5761AD11F62B8A700F24C85 /* OTPViewController.xib */,
+				FDFA6F531F626FDC007DDB50 /* NavigationController.swift */,
+				FDFA6F541F626FDC007DDB50 /* RegistrationTutorialViewController.swift */,
+				FDFA6F651F627147007DDB50 /* RegistrationTutorialViewController.xib */,
+				FDFA6F551F626FDC007DDB50 /* SplashViewController.swift */,
+				FDFA6F561F626FDC007DDB50 /* PhoneNumberViewController.swift */,
+				F5761ACA1F62B0D300F24C85 /* PhoneNumberViewController.xib */,
+				FDFA6F571F626FDC007DDB50 /* UserDetailsViewController.swift */,
+				F5761AD31F62C31900F24C85 /* UserDetailsViewController.xib */,
+				FDFA6F581F626FDC007DDB50 /* EmailViewController.swift */,
+				FDFA6F6B1F62AACF007DDB50 /* EmailViewController.xib */,
+				FDFA6F6D1F62AC04007DDB50 /* Utility.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDFA6F4F1F626DBC007DDB50 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA6F611F626FE6007DDB50 /* TextField.swift */,
+				FDFA6F621F626FE6007DDB50 /* Button.swift */,
+				FDFA6F6F1F62AF27007DDB50 /* Label.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9A60091F3B3BF8004C60F6 /* Wheelskeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9A601C1F3B3BF8004C60F6 /* Build configuration list for PBXNativeTarget "Wheelskeep" */;
+			buildPhases = (
+				849F342A1F6809FAC9A196C2 /* [CP] Check Pods Manifest.lock */,
+				FD9A60061F3B3BF8004C60F6 /* Sources */,
+				FD9A60071F3B3BF8004C60F6 /* Frameworks */,
+				FD9A60081F3B3BF8004C60F6 /* Resources */,
+				98BC8057D009EAF062F5AF4E /* [CP] Embed Pods Frameworks */,
+				31B0EF205FA9AB9DBEE4A69D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wheelskeep;
+			productName = Wheelskeep;
+			productReference = FD9A600A1F3B3BF8004C60F6 /* Wheelskeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9A60021F3B3BF8004C60F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wheelskeep;
+				TargetAttributes = {
+					FD9A60091F3B3BF8004C60F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FD9A60051F3B3BF8004C60F6 /* Build configuration list for PBXProject "Wheelskeep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9A60011F3B3BF8004C60F6;
+			productRefGroup = FD9A600B1F3B3BF8004C60F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9A60091F3B3BF8004C60F6 /* Wheelskeep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9A60081F3B3BF8004C60F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5761AD21F62B8A700F24C85 /* OTPViewController.xib in Resources */,
+				FDFA6F6A1F629EF9007DDB50 /* TutorialHintCell.xib in Resources */,
+				F5761ACB1F62B0D300F24C85 /* PhoneNumberViewController.xib in Resources */,
+				FD9A60181F3B3BF8004C60F6 /* LaunchScreen.storyboard in Resources */,
+				F5761AD41F62C31900F24C85 /* UserDetailsViewController.xib in Resources */,
+				FD9A60151F3B3BF8004C60F6 /* Assets.xcassets in Resources */,
+				FDFA6F6C1F62AACF007DDB50 /* EmailViewController.xib in Resources */,
+				FDFA6F661F627147007DDB50 /* RegistrationTutorialViewController.xib in Resources */,
+				FD9A60131F3B3BF8004C60F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31B0EF205FA9AB9DBEE4A69D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wheelskeep/Pods-Wheelskeep-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849F342A1F6809FAC9A196C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wheelskeep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		98BC8057D009EAF062F5AF4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wheelskeep/Pods-Wheelskeep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9A60061F3B3BF8004C60F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFA6F6E1F62AC04007DDB50 /* Utility.swift in Sources */,
+				FDFA6F691F629EF9007DDB50 /* TutorialHintCell.swift in Sources */,
+				FDFA6F601F626FDC007DDB50 /* EmailViewController.swift in Sources */,
+				FDFA6F501F626DBC007DDB50 /* Register.swift in Sources */,
+				FDFA6F591F626FDC007DDB50 /* LoginViewController.swift in Sources */,
+				FDFA6F5F1F626FDC007DDB50 /* UserDetailsViewController.swift in Sources */,
+				F5761AD01F62B50200F24C85 /* UIColor+Utilities.swift in Sources */,
+				FDFA6F5D1F626FDC007DDB50 /* SplashViewController.swift in Sources */,
+				FDFA6F5E1F626FDC007DDB50 /* PhoneNumberViewController.swift in Sources */,
+				FDFA6F701F62AF27007DDB50 /* Label.swift in Sources */,
+				FDFA6F5B1F626FDC007DDB50 /* NavigationController.swift in Sources */,
+				FDFA6F631F626FE6007DDB50 /* TextField.swift in Sources */,
+				FD9A600E1F3B3BF8004C60F6 /* AppDelegate.swift in Sources */,
+				FDFA6F5A1F626FDC007DDB50 /* OTPViewController.swift in Sources */,
+				FDFA6F5C1F626FDC007DDB50 /* RegistrationTutorialViewController.swift in Sources */,
+				FDFA6F641F626FE6007DDB50 /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD9A60111F3B3BF8004C60F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9A60121F3B3BF8004C60F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD9A60161F3B3BF8004C60F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9A60171F3B3BF8004C60F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD9A601A1F3B3BF8004C60F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD9A601B1F3B3BF8004C60F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD9A601D1F3B3BF8004C60F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wheelskeep",
+				);
+				INFOPLIST_FILE = Wheelskeep/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Wheelskeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wheelskeep/Wheelskeep-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD9A601E1F3B3BF8004C60F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wheelskeep",
+				);
+				INFOPLIST_FILE = Wheelskeep/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Wheelskeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wheelskeep/Wheelskeep-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9A60051F3B3BF8004C60F6 /* Build configuration list for PBXProject "Wheelskeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9A601A1F3B3BF8004C60F6 /* Debug */,
+				FD9A601B1F3B3BF8004C60F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9A601C1F3B3BF8004C60F6 /* Build configuration list for PBXNativeTarget "Wheelskeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9A601D1F3B3BF8004C60F6 /* Debug */,
+				FD9A601E1F3B3BF8004C60F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD9A60021F3B3BF8004C60F6 /* Project object */;
+}

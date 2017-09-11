@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhoneNumberViewController" customModule="Wheelskeep" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="yZF-bg-w5R" id="7w9-sk-GeL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="yZF-bg-w5R">
+            <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="backgroundimg-edit" translatesAutoresizingMaskIntoConstraints="NO" id="9th-Jn-5Xy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Téléphone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jDv-yY-Iwf" customClass="TextField" customModule="Wheelskeep" customModuleProvider="target">
+                    <rect key="frame" x="43" y="175" width="289" height="58"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="0.12550834759999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.34346596190000001" green="0.51700283810000003" blue="0.85601557719999999" alpha="0.84019156679999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="Ina-WZ-PPo"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="phone icon64*64"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" white="1" alpha="0.697265625" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="image" keyPath="leftIcon" value="useremail"/>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j71-sy-EsG" customClass="Button" customModule="Wheelskeep" customModuleProvider="target">
+                    <rect key="frame" x="102.5" y="261" width="170" height="58"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="1f8-ZM-Tqf"/>
+                        <constraint firstAttribute="width" constant="170" id="HnU-lM-0Vv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                    <state key="normal" title="Valider">
+                        <color key="titleColor" red="0.38065794110000001" green="0.41813260320000001" blue="0.91129219530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcS-EO-rBt">
+                    <rect key="frame" x="50" y="66" width="275" height="22"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kX-EX-mHP">
+                    <rect key="frame" x="50" y="113" width="275" height="22"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5kX-EX-mHP" firstAttribute="top" secondItem="EcS-EO-rBt" secondAttribute="bottom" constant="25" id="9nR-rW-A5T"/>
+                <constraint firstItem="9th-Jn-5Xy" firstAttribute="top" secondItem="yZF-bg-w5R" secondAttribute="top" id="AZM-cQ-FhW"/>
+                <constraint firstItem="jDv-yY-Iwf" firstAttribute="leading" secondItem="yZF-bg-w5R" secondAttribute="leading" constant="43" id="Kpd-4V-S9h"/>
+                <constraint firstItem="j71-sy-EsG" firstAttribute="centerX" secondItem="yZF-bg-w5R" secondAttribute="centerX" id="L6R-t9-oxG"/>
+                <constraint firstItem="EcS-EO-rBt" firstAttribute="leading" secondItem="yZF-bg-w5R" secondAttribute="leading" constant="50" id="LQJ-a7-zas"/>
+                <constraint firstItem="5kX-EX-mHP" firstAttribute="trailing" secondItem="EcS-EO-rBt" secondAttribute="trailing" id="LV5-xh-HPq"/>
+                <constraint firstItem="EcS-EO-rBt" firstAttribute="top" secondItem="yZF-bg-w5R" secondAttribute="top" constant="66" id="M7f-uT-Mom"/>
+                <constraint firstItem="j71-sy-EsG" firstAttribute="top" secondItem="jDv-yY-Iwf" secondAttribute="bottom" constant="28" id="OIz-jn-xYZ"/>
+                <constraint firstItem="jDv-yY-Iwf" firstAttribute="top" secondItem="5kX-EX-mHP" secondAttribute="bottom" constant="40" id="QvA-9J-hue"/>
+                <constraint firstAttribute="trailing" secondItem="9th-Jn-5Xy" secondAttribute="trailing" id="WQS-nh-hCF"/>
+                <constraint firstAttribute="bottom" secondItem="9th-Jn-5Xy" secondAttribute="bottom" id="YM2-J4-0h0"/>
+                <constraint firstAttribute="trailing" secondItem="EcS-EO-rBt" secondAttribute="trailing" constant="50" id="ayi-Zk-9Y6"/>
+                <constraint firstItem="5kX-EX-mHP" firstAttribute="leading" secondItem="EcS-EO-rBt" secondAttribute="leading" id="llI-tN-QHA"/>
+                <constraint firstAttribute="trailing" secondItem="jDv-yY-Iwf" secondAttribute="trailing" constant="43" id="ySP-vm-KAz"/>
+                <constraint firstItem="9th-Jn-5Xy" firstAttribute="leading" secondItem="yZF-bg-w5R" secondAttribute="leading" id="yrB-SK-99x"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backgroundimg-edit" width="376" height="667"/>
+        <image name="phone icon64*64" width="64" height="64"/>
+        <image name="useremail" width="14" height="15"/>
+    </resources>
+</document>
